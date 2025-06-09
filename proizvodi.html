@@ -5,6 +5,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles.css" />
+  <style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  th {
+    background-color: #2a7ae2;
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #f4f6fa;
+  }
+  caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+</style>
 </head>
 <body>
   <header>
@@ -161,6 +187,80 @@
         <p><strong>5.00 € / kg</strong></p>
       </div>
     </div>
+
+    <table>
+  <caption>Svi proizvodi</caption>
+  <thead>
+    <tr>
+      <th>Naziv proizvoda</th>
+      <th>Opis</th>
+      <th>Cijena (€ / kg)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Trešnja Kordia</td>
+      <td>Krupna, tamnocrvena, iznimno slatka.</td>
+      <td>5.99</td>
+    </tr>
+    <tr>
+      <td>Ašlama Trešnja</td>
+      <td>Sočna, blago kiselkasta.</td>
+      <td>4.49</td>
+    </tr>
+    <tr>
+      <td>Divlje Trešnje</td>
+      <td>Intenzivnog okusa, bogate nutritivne vrijednosti.</td>
+      <td>6.50</td>
+    </tr>
+    <tr>
+      <td>Trešnja Regina</td>
+      <td>Veoma sočna i slatka.</td>
+      <td>6.20</td>
+    </tr>
+    <tr>
+      <td>Trešnja Summit</td>
+      <td>Rana sorta, mekana i aromatična.</td>
+      <td>5.00</td>
+    </tr>
+    <tr>
+      <td>Trešnja Van</td>
+      <td>Tamnocrvena, slatka i čvrsta.</td>
+      <td>5.30</td>
+    </tr>
+    <tr>
+      <td>Trešnja Burlat</td>
+      <td>Rana sorta, svijetle boje, slatka.</td>
+      <td>4.80</td>
+    </tr>
+    <tr>
+      <td>Trešnja Lapins</td>
+      <td>Velika, tamnocrvena, slatka i čvrsta.</td>
+      <td>6.00</td>
+    </tr>
+    <tr>
+      <td>Trešnja Sweetheart</td>
+      <td>Sočna, slatka, kasna sorta.</td>
+      <td>5.90</td>
+    </tr>
+    <tr>
+      <td>Trešnja Skeena</td>
+      <td>Tamnocrvena, čvrsta, slatka.</td>
+      <td>6.10</td>
+    </tr>
+    <tr>
+      <td>Trešnja Sunburst</td>
+      <td>Svijetla, slatka, srednje rana.</td>
+      <td>5.40</td>
+    </tr>
+    <tr>
+      <td>Trešnja Early Korvic</td>
+      <td>Rana sorta, svijetla, slatka.</td>
+      <td>5.20</td>
+    </tr>
+  </tbody>
+</table>
+
   </main>
 
   <footer>
